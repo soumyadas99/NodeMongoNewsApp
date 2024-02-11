@@ -1,0 +1,49 @@
+.admin-users-sections {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .container {
+    width: 90%; /* Adjust the width of the container */
+  }
+  
+  .admin-users {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%; /* Make the table fill the container width */
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  th {
+    background-color: #4CAF50;
+    color: white;
+  }
+ 
+  
+  .edit-btn {
+    margin-right: 10px;
+    padding: 15px 32px;
+  }
+  
+  .delete-btn {
+    margin-left: 10px;
+  }

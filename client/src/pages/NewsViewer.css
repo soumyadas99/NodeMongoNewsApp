@@ -1,0 +1,39 @@
+/* NewsViewer.css */
+
+.news-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between cards */
+    margin-left:80px;
+  }
+  
+  .news-card {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Adjust the width of each card */
+    height:100px;
+  }
+  
+  .news-card h3 {
+    margin-top: 0;
+    font-size:larger ;
+
+  }
+  .news-viewer{
+    margin-top: 500px;;
+  }
+
+  .news-viewer h2{
+    color: rgba(0, 0, 12, 0.978);
+    font-size:xx-large;
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  
+  /* Add more styles as needed */
+  
